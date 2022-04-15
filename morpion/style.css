@@ -1,0 +1,13 @@
+h1 { color: blue}
+
+#myGrid { margin: 0 auto; width: 188px}
+.myRow { display: flex;}
+.myRow div { width: 60px;
+             height: 60px;
+             border: 2px solid darkblue;
+             font-size: 40px;
+             text-align: center;
+            }
+
+.myCel { cursor: pointer}
+.myCel:hover { background-color: lightyellow;}

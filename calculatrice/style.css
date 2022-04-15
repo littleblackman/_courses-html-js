@@ -1,0 +1,11 @@
+html { background-color: white; margin: 0; padding: 0;}
+body { width: 1000px; margin: 0 auto; background-color: antiquewhite; padding: 10px; min-height: 1000px;}
+h1 { color:blue;}
+
+
+/***** CALCULATRICE ****/
+#calculate { width: 800px; border: 1px solid black; border-radius: 10px; background-color: lightgray; padding: 20px;}
+#screen { width: 700px; margin: 0 auto; border-radius: 20px; background-color: white; text-align: right; padding: 20px; margin-bottom: 20px; font-size: 2rem;}
+.row { display: flex; justify-content: space-around; width: 700px; margin-bottom: 20px;}
+.row div { cursor: pointer; width: 100px;  border: 1px solid black; border-radius: 10px; text-align: center; font-size: 2rem; line-height: 4rem; background-color: lightpink;}
+.row div:hover { color: white; background-color: darkred;}
